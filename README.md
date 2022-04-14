@@ -20,7 +20,11 @@ This is a Todo list to manage tasks the user wants to work with.
 - Use localStorage to save the data
 
 ## Status
-In progress. 
+In progress.
+
+To do :
+1. line-through completed tasks
+2. Save it on localStorage
 
 ## License
 MIT license @luisacmn
