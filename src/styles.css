@@ -1,0 +1,93 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: rgb(236, 236, 236);
+}
+
+/*HEADER*/
+.header {
+  text-align: center;
+}
+
+.navbar {
+  background-color: #ff8080;
+  margin-bottom: 70px;
+  padding: 5px 30px;
+  color: white;
+}
+
+.year {
+  font-weight: bold;
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.title {
+  font-family: "Lobster", cursive;
+  font-size: 36px;
+}
+
+.subtitle {
+  font-style: italic;
+  font-size: 18px;
+}
+
+.board {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  justify-content: center;
+}
+
+/*CARD*/
+.card {
+  min-width: 300px;
+  min-height: 220px;
+  margin: 10px;
+  padding: 10px 20px 20px;
+}
+
+.monthTitle {
+  color: grey;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 5px;
+}
+
+.task:hover {
+  background-color: rgb(238, 238, 238);
+}
+
+.form-check-input {
+  margin-right: 5px;
+}
+
+.task {
+  position: relative;
+}
+
+.icon {
+  position: absolute;
+  right: 4px;
+  top: 6px;
+  margin-top: auto;
+  height: 50%;
+  color: grey;
+}
+
+.icon:hover {
+  cursor: pointer;
+  color: rgb(78, 78, 78);
+}
+
+.form-check-input:hover {
+  cursor: pointer;
+}
+
+/*FOOTER*/
+.footer {
+  color: grey;
+  text-align: center;
+  margin-top: 200px;
+}
